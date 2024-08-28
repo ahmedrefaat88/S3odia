@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mainFile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        direction: rtl;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loginPage flex">
+      <div class="right w-full relative lg:w-[45vw]">
+        <div class="bg h-full relative">
+          <div class="text text-white text-center absolute">
+            <h1 class="text-2xl font-bold mb-5">
+              مرحبا بك في موقع عائلة آل بكر من المزاريع من بني تميم
+            </h1>
+            <p class="text-lg px-10 mb-2">
+              الحمدلله رب العالمين القائل في محكمة التنزيل
+            </p>
+            <p class="text-lg px-10 mb-7">
+              (و اتقوا الله الذى تساءلون به و الارحام ان الله كان عليكم رقيبا)
+            </p>
+            <h2 class="font-bold text-xl mb-2">
+              و الصلاه و السلام على اشرف الأنبياء و المرسلين قائلا
+            </h2>
+            <p class="text-lg mx-8 pb-10">
+              تعلموا من انسابكم ما تصلون به ارحامكم, فأن صلة الرحم محبة في الاهل
+              مثراه في المال, منسأه في الاثر
+            </p>
+            <div class="icons flex justify-center flex-row-reverse gap-4 pb-7">
+              <img src="img/facebook.png" alt="" />
+              <img src="img/instagram.png" alt="" />
+              <img src="img/twitter.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="left bg-repeat py-16 px-5"
+        style="background-image: url(img/backgrounf.png)"
+      >
+        <div class="btn flex items-end justify-end gap-4">
+          <button
+            class="bg-[#0a6937] py-3 px-14 rounded-[50px] text-white font-bold shadow-md outline-none"
+            href="#"
+          >
+            تسجيل الدخول
+          </button>
+          <button
+            class="py-3 px-14 font-bold bg-transparent shadow-md rounded-[50px] hover:bg-[#0a6937] hover:text-white hover:transition"
+            href="#"
+          >
+            طلب عضوية
+          </button>
+        </div>
+        <div class="flex items-center gap-5">
+          <img class="w-[80px]" src="img/User.png" alt="" />
+          <p class="fst relative pb-3 font-bold text-lg">معلوماتك</p>
+          <p class="scd relative pb-3 font-bold text-gray-500 text-lg">
+            كلمة المرور
+          </p>
+        </div>
+        <div class="mt-5 mx-4">
+          <form action="">
+            <div class="w-full mb-10">
+              <label class="font-bold mb-3 block" for="">الاسم بالكامل</label>
+              <input
+                class="rounded-lg shadow-md py-4 px-3 w-full bg-transparent border-gray-300 border-[1px] block outline-none"
+                type="text"
+                name=""
+                id=""
+                placeholder="الاسم بالكامل"
+              />
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block font-bold mb-2" for=""> اسم الجد </label>
+                <input
+                  class="appearance-none block w-full outline-none bg-transparent shadow-md border rounded py-3 px-4 mb-3"
+                  id=""
+                  type="text"
+                  placeholder="اسم الجد"
+                />
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block font-bold mb-2" for="grid-last-name">
+                  اسم الفخذ
+                </label>
+                <input
+                  class="appearance-none block w-full border bg-transparent shadow-md border-gray-200 rounded py-3 px-4 outline-none"
+                  id="grid-last-name"
+                  type="text"
+                  placeholder="اسم الفخذ"
+                />
+              </div>
+            </div>
+            <div class="w-full mb-10">
+              <label class="font-bold mb-3 block" for="">القبيلة</label>
+              <input
+                class="rounded-lg shadow-md py-4 px-3 w-full bg-transparent border-gray-300 border-[1px] block outline-none"
+                type="text"
+                name=""
+                id=""
+                placeholder="القبيلة"
+              />
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block font-bold mb-2" for="">العمر</label>
+                <input
+                  class="appearance-none block w-full outline-none bg-transparent shadow-md border rounded py-3 px-4 mb-3"
+                  id=""
+                  type="text"
+                  placeholder="العمر"
+                />
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block font-bold mb-2" for="grid-last-name">
+                  الجنس
+                </label>
+                <input
+                  class="appearance-none block w-full border bg-transparent shadow-md border-gray-200 rounded py-3 px-4 outline-none down"
+                  id="grid-last-name"
+                  type="text"
+                  placeholder="الجنس"
+                />
+              </div>
+            </div>
+            <div class="w-full mb-10">
+              <label class="font-bold mb-3 block" for="">الدولة</label>
+              <input
+                class="rounded-lg shadow-md py-4 px-3 w-full bg-transparent border-gray-300 border-[1px] block outline-none"
+                type="text"
+                name=""
+                id=""
+                placeholder="الدولة"
+              />
+            </div>
+          </form>
+          <div class="flex justify-center">
+            <button
+              class="py-3 px-80 rounded-md text-lg text-white font-bold bg-[#0a6937]"
+            >
+              التالي
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
