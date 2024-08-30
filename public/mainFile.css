@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scrollbar-width: none;
 }
 html {
   scroll-behavior: smooth;
@@ -20,14 +21,7 @@ a {
 ul {
   list-style: none;
 }
-.loginPage .bg {
-  background-image: url(img/pic.jpg);
-  background-size: cover;
-  position: sticky;
-}
-.loginPage .text {
-  top: 40%;
-}
+
 .loginPage .left .fst::before {
   position: absolute;
   content: "";
@@ -43,4 +37,11 @@ ul {
   width: 100%;
   height: 2px;
   background: #c8b824;
+  transition: 0.3s;
+}
+.loginPage .left .scd:hover::before {
+  background: #0a6937;
+}
+input:focus {
+  box-shadow: 0 0 10px #1db7797a;
 }
