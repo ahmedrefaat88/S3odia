@@ -65,5 +65,11 @@ input:focus {
     left: 0;
     background-color: #0a6937;
     transition: 1s;
+    z-index: 10;
+  }
+}
+@media (min-width: 991px) {
+  .intro {
+    border-radius: 0 0 30% 45%;
   }
 }
